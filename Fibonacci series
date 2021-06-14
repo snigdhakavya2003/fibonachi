@@ -1,0 +1,14 @@
+n=int(input=("how many terms"))
+a, b=0,1
+if n<=0:
+print("enter positive number")
+elif n==1:
+print(a)
+else:
+i=0
+while i<n:
+c=a+b
+print(a)
+a=b
+b=c
+i+=1
